@@ -96,4 +96,31 @@ if ($score >= 90) {
     echo "Grade: F";
 }
 
+
+
+// Switch
+$role = "admin";
+
+// if ($role == "admin") {
+//     echo "You are Admin";
+// } elseif ($role == "subscriber") {
+//     echo "You are Subscriber.";
+// } elseif ($role == "editor") {
+//     echo "You are Editor";
+// }
+
+switch ($role) {
+    case "admin":
+        echo "You are Admin";
+        break;
+    case "subscriber":
+        echo "You are Subscriber.";
+        break;
+    case "editor":
+        echo "You are Editor";
+        break;
+    default:
+        echo "This is default block code";
+}
+
 ?>
