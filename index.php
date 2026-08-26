@@ -123,4 +123,26 @@ switch ($role) {
         echo "This is default block code";
 }
 
+
+// if...else
+$age = 25;
+$status = null;
+// if ($age >= 18) {
+//     $status = "adult";
+// } else {
+//     $status = "child";
+// }
+$status = ($age >= 18) ? "adult" : "child";
+
+echo "You are " . $status;
+
+
+function sayHello()
+{
+    echo "Hello World!</br>";
+}
+
+sayHello();
+sayHello();
+sayHello();
 ?>
